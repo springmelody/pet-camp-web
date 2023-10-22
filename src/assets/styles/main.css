@@ -1,0 +1,22 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--dark);
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  position: relative;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 100vh;
+  padding: 20px;
+}
